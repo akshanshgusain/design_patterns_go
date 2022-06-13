@@ -1,7 +1,9 @@
 package main
 
-import "github.com/akshanshgusain/Go-Design-Patterns/decorator"
+import (
+	"github.com/akshanshgusain/Go-Design-Patterns/facade"
+)
 
 func main() {
-	decorator.Decorator()
+	facade.Facade()
 }
