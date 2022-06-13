@@ -1,7 +1,9 @@
 package main
 
-import "github.com/akshanshgusain/Go-Design-Patterns/flyweight"
+import (
+	"github.com/akshanshgusain/Go-Design-Patterns/proxy"
+)
 
 func main() {
-	flyweight.Flyweight()
+	proxy.Proxy()
 }
