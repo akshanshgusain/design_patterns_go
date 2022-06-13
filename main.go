@@ -1,9 +1,7 @@
 package main
 
-import (
-	"github.com/akshanshgusain/Go-Design-Patterns/facade"
-)
+import "github.com/akshanshgusain/Go-Design-Patterns/flyweight"
 
 func main() {
-	facade.Facade()
+	flyweight.Flyweight()
 }
